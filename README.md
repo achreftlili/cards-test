@@ -17,4 +17,4 @@ c'est une application front basé sur Angular 17 pour afficher le resultat et co
 
 pour lancer l'application front il suffit de lancé `npm start` pour avoir l'application lancé sur http://localhost:4200/
 
-![Capture d’écran 2024-06-21 à 01.30.44.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2F7n%2Fxc6gq9815dzbpz7gfhhfm63m0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_9uQcUy%2FCapture%20d%E2%80%99%C3%A9cran%202024-06-21%20%C3%A0%2001.30.44.png)
+<img width="1666" alt="Capture d’écran 2024-06-21 à 02 08 32" src="https://github.com/achreftlili/cards-test/assets/4409405/29920114-d137-473e-adde-b5bbe02c10fb">
