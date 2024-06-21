@@ -1,0 +1,12 @@
+<div class="card-container">
+
+  <div *ngFor="let card of cardsList" class="card">
+    <div class="color">{{ card.color }}</div>
+    <div class="name">{{ card.name }}</div>
+  </div>
+
+  <div class="button-container">
+    <button (click)="getCards()">Servir une nouvelle liste de cartes</button>
+    <button (click)="sortCards()">trier les cartes</button>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+version: '3.5'
+
+services:
+
+  nginx:
+    build:
+      context: ./
+      target: nginx
+    ports:
+      - '9500:80'
+    volumes:
+      - './public:/var/www/public:ro'
+    depends_on:
+      - php
+
+  php:
+    build:
+      context: ./
+      target: php_fpm
+    environment:
+      APP_ENV: dev
+    volumes:
+      - './:/var/www/'
+
+
+networks:
+  default:
+    name: blog-network
